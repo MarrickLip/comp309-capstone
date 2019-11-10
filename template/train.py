@@ -74,6 +74,7 @@ def save_model(model):
 
 
 if __name__ == '__main__':
+    raise NotImplemented
     model = construct_model()
     model = train_model(model)
     save_model(model)
